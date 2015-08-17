@@ -35,6 +35,6 @@ span.SS_JournalISSN {
 @media screen and (min-width: 768px) {
 
 	.SS_TitleSearchForm { width: 48%; float: left;}
-	center > .SS_CategorySelector { width: 48%; float: left; }
+	center > .SS_CategorySelector { width: 48%; padding-left:2.5%; float: left; }
 
 }
