@@ -1,4 +1,7 @@
-.SS_CopyRightStatement { display: none; }
+.SS_CopyRightStatement,
+td.SS_EJPMainCell br {
+    display: none;
+} 
 
 .SS_Holding {
     border-bottom: 1px solid #ddd;
@@ -27,11 +30,11 @@ span.SS_JournalISSN {
     font-size: 95%;
     font-weight: normal;
 }
-
+.SS_ToolLabels { padding-top: 1.7em;}
 
 @media screen and (min-width: 768px) {
 
-	.SS_TitleSearchForm { width: 48%; padding: 0 1%; float: left;}
-	center > .SS_CategorySelector { width: 48%; padding: 0 1%; float: left; }
+	.SS_TitleSearchForm { width: 48%; float: left;}
+	center > .SS_CategorySelector { width: 48%; float: left; }
 
 }
