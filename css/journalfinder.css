@@ -19,7 +19,15 @@ center {
 	text-align: left !important;
 }
 
-hr.SS_EJPPreContentHorizontalRules { clear: both; margin: .5em 0; padding: .5em 0;}
+hr.SS_EJPPreContentHorizontalRules { clear: both; border: none !important;}
+
+.SS_AtoZLinks { clear: both; }
+
+span.SS_JournalISSN {
+    font-size: 95%;
+    font-weight: normal;
+}
+
 
 @media screen and (min-width: 768px) {
 
