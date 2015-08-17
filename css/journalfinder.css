@@ -1,0 +1,29 @@
+.SS_CopyRightStatement { display: none; }
+
+.SS_Holding {
+    border-bottom: 1px solid #ddd;
+    padding-top: .75em;
+    font-size: 1.1em;
+}
+
+.SS_Holding table:first-child {
+	font-style: italic;
+	margin-left: -.25em;
+}
+
+.SS_JournalTitle {
+	font-size: 1.2em;
+}
+
+center {
+	text-align: left !important;
+}
+
+hr.SS_EJPPreContentHorizontalRules { clear: both; margin: .5em 0; padding: .5em 0;}
+
+@media screen and (min-width: 768px) {
+
+	.SS_TitleSearchForm { width: 48%; padding: 0 1%; float: left;}
+	center > .SS_CategorySelector { width: 48%; padding: 0 1%; float: left; }
+
+}
