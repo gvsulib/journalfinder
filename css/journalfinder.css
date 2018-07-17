@@ -22,6 +22,10 @@ center {
 	text-align: left !important;
 }
 
+/* ProQuest sets the background color of images to white because they are not thinking */
+
+img { background: transparent !important; }
+
 hr.SS_EJPPreContentHorizontalRules { clear: both; border: none !important;}
 
 .SS_AtoZLinks { clear: both; }
