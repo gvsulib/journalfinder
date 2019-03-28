@@ -22,6 +22,20 @@ center {
 	text-align: left !important;
 }
 
+ul.dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: .5em;
+    border: 1px solid #dcdcdc;
+    border-top: none;
+    z-index: 100;
+    position: absolute;
+    background-color: #fff;
+    -webkit-box-shadow: 10px 10px 15px -2px rgba(220,220,220,0.4);
+    -moz-box-shadow: 10px 10px 15px -2px rgba(220,220,220,0.4);
+    box-shadow: 10px 10px 15px -2px rgba(180,180,180,0.4);
+}
+
 /* ProQuest sets the background color of images to white because they are not thinking */
 
 img { background: transparent !important; }
