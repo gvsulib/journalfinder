@@ -62,3 +62,8 @@ span.SS_JournalISSN {
 	center > .SS_CategorySelector { width: 48%; padding-left:2.5%; float: left; }
 
 }
+
+.navigation {
+    z-index: 9 !important;
+    
+}
